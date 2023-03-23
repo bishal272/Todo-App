@@ -15,7 +15,7 @@
 	<description>Todo App using Spring boot, Spring data jpa, thymeleaf</description>
 	<properties>
 		<java.version>19</java.version>
-	</properties>
+</properties>
 	<dependencies>
 		<dependency>
 			<groupId>mysql</groupId>

@@ -9,7 +9,7 @@ COPY . .
 # Package stage
 #
 FROM openjdk:19
-COPY --from=build /target/todo_app.jar todo.jar
+COPY --from=build target/todo_app.jar todo.jar
 # ENV PORT=8080
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","todo.jar"]

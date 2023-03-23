@@ -1,7 +1,7 @@
 #
 # Build stage
 #
-
+COPY . .
 
 
 #
